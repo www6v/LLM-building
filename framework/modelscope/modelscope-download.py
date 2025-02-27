@@ -26,6 +26,8 @@ dataset_dir = snapshot_download('', cache_dir='./dataset', revision='master')
 
 ### 这个没问题
 # modelscope download --dataset 'FreedomIntelligence/medical-o1-reasoning-SFT'  --cache_dir './cache_dir'
+# modelscope download --dataset 'openai-mirror/gsm8k'  --cache_dir './gsm8k'
+
 
 ### 好像有问题
 ds = MsDataset.load('FreedomIntelligence/medical-o1-reasoning-SFT', cache_dir='./dataset', split='train')
