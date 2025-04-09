@@ -1,0 +1,52 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 605,
+  "description": "",
+  "download_checksums": {
+    "/root/internLM/llm-action-main/train/chinese-llama-alpaca/alpaca_eval.json": {
+      "num_bytes": 684,
+      "checksum": null
+    }
+  },
+  "download_size": 684,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1289,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 605,
+      "num_examples": 1,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
