@@ -8,6 +8,8 @@ dependencies = [
     "chromadb",
     "langchain>=0.3.23",
     "langchain-community>=0.3.21",
+    "langchain-experimental>=0.3.4",
     "langchain-openai>=0.3.12",
+    "langchain-text-splitters>=0.3.8",
     "sentence-transformers>=4.0.2",
 ]
