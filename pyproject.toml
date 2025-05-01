@@ -16,11 +16,12 @@ dependencies = [
     "mcp[cli]>=1.6.0",
     "openai>=1.72.0",
     "sentence-transformers>=4.0.2",
-
-
     "dashscope>=1.23.1",
     "fastapi==0.115.8",
     "gradio==5.18.0",
     "pydantic==2.10.6",
-    "uvicorn==0.34.0",    
+    "uvicorn==0.34.0",
+    "autogen-agentchat>=0.5.5",
+    "autogen-ext[openai]>=0.5.5",
+    "asyncio==3.4.3",
 ]
