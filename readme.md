@@ -7,11 +7,7 @@
 ### RAG
 + langchain
 
-### Pytorch
-+ core
 
-### Transformer
-+ MoE
-+ SFT
+
 
 
